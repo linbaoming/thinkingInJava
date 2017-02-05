@@ -8,7 +8,7 @@ import static net.mindview.util.Print.*;
  * @author linboaming
  * @create 2017-02-05 23:38
  */
-public class Demotion {
+public class PrimitiveOverloading2 {
     void f1(char x) { print("f1(char)"); }
     void f1(byte x) { print("f1(byte)"); }
     void f1(short x) { print("f1(short)"); }
@@ -51,7 +51,7 @@ public class Demotion {
         f5((short)x);f6((byte)x);f7((char)x);
     }
     public static void main(String[] args) {
-        Demotion p = new Demotion();
+        PrimitiveOverloading2 p = new PrimitiveOverloading2();
         p.testDouble();
     }
 }

@@ -10,7 +10,8 @@ class Value {
 
 /**
  * 既是static又是final的域为常量，用大写表示，并使用下划线分割
- *
+ * 只有final定义的基本数据类型，在定义时必须赋值，并且后续不能改变其值
+ * 而final定义的引用对象时，只是限制不能改变引用指向其它对象，但对象里的内容不受限制，数组也是对象
  */
 public class FinalData {
   private static Random rand = new Random(47);

@@ -47,8 +47,11 @@ class Woodwind extends Wind {
     print("Woodwind.play() " + n);
   }
   public String what() { return "Woodwind"; }
-}	
+}
 
+/**
+ * 抽象类实现
+ */
 public class Music4 {
   // Doesn't care about type, so new types
   // added to the system still work right:

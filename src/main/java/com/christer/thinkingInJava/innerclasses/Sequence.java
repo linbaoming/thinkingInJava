@@ -10,6 +10,9 @@ interface Selector {
 /**
  * 迭代器设计模式
  * 内部内可以访问其外部类的方法和字段
+ *
+ * 如果不使用内部类，就必须声明Sequence是一个Selector，对于某个特定的Sequence只能有一个Selector
+ * 然而使用内部类很容易就能拥有另一个方法reverseSeletor()，用它来生成一个反向遍历。只有内部类才有此灵活性
  */
 public class Sequence {
   private Object[] items;

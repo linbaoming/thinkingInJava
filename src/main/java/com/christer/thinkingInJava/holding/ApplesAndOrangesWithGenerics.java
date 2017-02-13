@@ -3,6 +3,7 @@ import java.util.*;
 
 /**
  * 使用了泛型，取出时无需转型
+ * 并且在定义时就已决定能存放什么对象，如果存放其它对象将报错
  */
 public class ApplesAndOrangesWithGenerics {
   public static void main(String[] args) {

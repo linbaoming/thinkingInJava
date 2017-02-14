@@ -5,6 +5,8 @@ import java.util.*;
 /**
  * Arrays.asList()方法接受一个数组 或 一个用逗号分隔的元素对象列表，并将其转换为一个List对象
  * Collections.addAll()方法接受一个Collection对象 以及 一个数组 或 一个用逗号分隔的列表，将元素添加到Collection中
+ *
+ * 用Arrays.asList()方法生成的List，其底层是数组，不能用add()或delete()方法来添加或删除元素
  */
 public class AddingGroups {
   public static void main(String[] args) {

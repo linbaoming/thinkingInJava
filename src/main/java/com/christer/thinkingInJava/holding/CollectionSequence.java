@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 实现AbstractCollection就必须实现iterator()
  * 如果继承了AbstractCollection类就不能继承其它类
- * 所以如果已继承了其它类就只能通过生成Iterator来实现了
+ * 所以如果已继承了其它类就只能通过生成Iterator来实现
  */
 public class CollectionSequence
 extends AbstractCollection<Pet> {

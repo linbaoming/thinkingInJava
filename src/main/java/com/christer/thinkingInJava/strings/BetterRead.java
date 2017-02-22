@@ -1,6 +1,9 @@
 package com.christer.thinkingInJava.strings;//: strings/BetterRead.java
 import java.util.*;
 
+/**
+ * 使用Scanner来扫描，大大减轻扫描输入的工作负担
+ */
 public class BetterRead {
   public static void main(String[] args) {
     Scanner stdin = new Scanner(SimpleRead.input);

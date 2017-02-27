@@ -1,8 +1,11 @@
 package com.christer.thinkingInJava.typeinfo;//: typeinfo/InnerImplementation.java
 // Private inner classes can't hide from reflection.
-import typeinfo.interfacea.*;
+import com.christer.thinkingInJava.typeinfo.interfacea.*;
 import static net.mindview.util.Print.*;
 
+/**
+ * 私有内部类也可以用反射获得其实际类型
+ */
 class InnerA {
   private static class C implements A {
     public void f() { print("public C.f()"); }
